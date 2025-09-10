@@ -68,8 +68,5 @@ python add_ai_tag.py path/to/your.webp
 - TIFF 目前是将 IFD0 的 next 覆盖为新 IFD；如需要保留链表，应遍历至末尾 IFD 再挂接。
 - BMP 尾部追加为非标准做法，但更新了 `bfSize`，常见解析器可忽略尾部数据。
 - AVI 索引与对齐在大多数样本下可正常工作，生产环境建议充分回归。
-
-## 许可与贡献
-
-- 建议使用 MIT License
-- 欢迎 PR / Issue：新增格式支持、规范性改进、增强 CLI 等
+  
+- **欢迎 PR / Issue：新增格式支持、规范性改进、增强 CLI 等**

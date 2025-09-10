@@ -69,7 +69,4 @@ python add_ai_tag.py path/to/your.webp
 - BMP trailing data is non-standard but widely tolerated; `bfSize` is updated for consistency.
 - AVI index/alignments work for common cases; regression testing is recommended for production workflows.
 
-## License & Contributing
-
-- Recommended: MIT License
-- Contributions welcome: more formats, stricter spec compliance, richer CLI (batching, directory scans, custom outputs)
+- **Contributions welcome: more formats, stricter spec compliance, richer CLI (batching, directory scans, custom outputs)**
